@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Form Assignment</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <form action="" method="post">
+
+
+         
+        <fieldset>
+            <legend>Your address</legend>
+            <div>
+                <label for="first name"> First name</label>
+                <div align="center">
+                <input type="text" id="first name" > 
+                </div>
+        
+             </div> 
+             <div>
+                <label for="last name"> Last name</label>
+                <div align="center">
+                <input type="text" id="last name" >
+                </div>
+             </div>
+             <div>
+                <label for="street">Street</label>
+                <div align="center">
+                <input type="text" id="street" >
+                </div>
+             </div>
+             <div>
+                <label for="city"> City</label>
+                <div align="center">
+                <input type="text" id="city" >
+                </div>
+
+             </div>
+        </fieldset><br>
+        <fieldset>
+            <legend>Additional details</legend>
+            <div>
+                <label for="biography">Biography</label>
+                <div align="center">
+                <textarea name="biography" id="biography" cols="20" rows="2"></textarea>
+            </div>
+            </div>
+            <div>
+                 <label for="image"> Image</label>
+                <div    align="center">
+                <input type="file" id="image"  style="padding:0 0 0 80px ;">
+                </div>
+             </div>
+             <div>
+                <label for="age group"> Age Group</label>
+                <div class="custom-select"  align="center" style="padding: 0 0 0 20px;" >
+                
+                
+                    <select name="age group" id="age group">
+                        <option value="0 to 9 years" >0 to 9 Years</option>
+                        <option value="0">0</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                    </select>
+                <span class="custom-arrow"></span>
+             </div>
+             </div>
+        </fieldset><br>
+        <fieldset>
+            <legend>Interests</legend>
+            <div>
+                <label for="hobbies">Hobbies</label>
+                <div align="center">
+                <inut type="text" id="hobbies" >
+                    <textarea name="hobbies" id="hobbies" cols="15" rows="4"></textarea>
+                
+                
+                </div>
+            </div>
+            <div>
+                <label for="favourite car"> Favourite car?</label>
+                <div class="custom-select" align="center" style="padding: 0 0 0 20px;" >
+                <select name="favourite car" id="favourite car">
+                    <option value="select">Volvo</option>
+                    <option value="venza">Venza</option>
+                    </div>
+                </select>
+                <span class="custom-arrow"></span>
+                
+            </div>
+            <div>
+                <label for="favourite public transport"> Favourite public transport</label>
+                <div align="center" >
+             <optgroup label="Ground">
+                        <option value="train" >Train</option>
+                        <option value="bus" >Bus</option>
+
+                    </optgroup>
+                    <optgroup label="Water" >
+                        
+
+                    </optgroup>
+                
+                
+                </div>
+                
+            
+                
+            </div>
+        </fieldset>
+
+    </form>
+    
+</body>
+</html>

@@ -1,0 +1,57 @@
+select{
+    padding: 0px 50px 0;
+    border-radius: 5px;
+    
+
+    
+    
+}
+.custom-select{
+    position: relative;
+    
+    
+}
+.custom-arrow {
+    position: relative;
+    top: 0;
+    right: 10px;
+    height: 100%;
+    width: 1em;
+    pointer-events: none;
+    
+}
+.custom-arrow::before,
+.custom-arrow::after {
+    --size:0.4em;
+    
+
+
+    content: "" ;
+    position: absolute;
+    width: 0;
+    height: 0;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+    
+}
+
+.custom-arrow::before{
+    border-left: var(--size) solid  transparent;
+    border-right:var(--size) solid transparent;
+    border-bottom:var(--size) solid pink;
+    background: blue;
+
+    top: 30%;
+    
+    
+}
+
+.custom-arrow::after{
+    border-left: var(--size) solid transparent ;
+    border-right:var(--size) solid transparent ;
+    border-top:var(--size) solid pink;
+    background: blue;
+    top:70%;
+    
+}
